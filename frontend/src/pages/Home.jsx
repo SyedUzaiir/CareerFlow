@@ -1,10 +1,17 @@
 import React from 'react'
+import HomeCenter from '../components/HomeCenter'
+import { useUser } from '@clerk/clerk-react'
+
 
 const Home = () => {
+  const { user } = useUser();
   return (
-    <div>
-      Home
-    </div>
+    !user ? (<HomeCenter/>):
+    (
+      <div></div>
+    )
+    
+
   )
 }
 

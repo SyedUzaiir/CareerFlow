@@ -49,10 +49,12 @@ import tesla_logo from './tesla_logo.png'
 import google_logo from './google_logo.png'
 import ibm_logo from './ibm_logo.png'
 import intel_logo from './intel_logo.png'
+import myDp from './myDp.png'
 
 
 
 export const assets = {
+    myDp,
     intel_logo,
     ibm_logo,
     google_logo,

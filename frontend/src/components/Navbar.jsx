@@ -17,8 +17,10 @@ const Navbar = () => {
     <div className="sticky top-0 shadow py-4 bg-white/80 backdrop-blur z-50">
       <div className="container px-4 2xl:px-20 mx-auto flex justify-between items-center">
         
-        <Link to="/" onClick={handleMenuClose}>
-          <img src={assets.logo} width="90" alt="Logo" />
+        <Link to="/" onClick={handleMenuClose} className="text-2xl flex font-bold  " >
+          {/* <img src={assets.logo} width="90" alt="Logo" /> */}
+          <p className=" = " >Career</p>
+          <p className=" text-fuchsia-700 " >Flow</p>
         </Link>
 
         {/* Desktop */}
@@ -55,7 +57,7 @@ const Navbar = () => {
               </button>
               <button
                 onClick={() => openSignIn()}
-                className="bg-blue-600 cursor-pointer text-white px-6 sm:px-9 py-2 rounded-full hover:bg-blue-700"
+                className="bg-fuchsia-600  cursor-pointer text-white px-6 sm:px-9 py-2 rounded-full hover:bg-fuchsia-700 "
               >
                 Login
               </button>

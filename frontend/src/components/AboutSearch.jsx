@@ -16,11 +16,11 @@ const AboutSearch = () => {
     
     <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
       
-      <Link to="#" class="inline-block w-full sm:w-auto rounded-lg bg-indigo-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition-transform duration-200 hover:scale-105 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+      <Link to="#" class="inline-block w-full sm:w-auto rounded-lg  px-8 py-3 text-base font-semibold text-white shadow-lg transition-transform duration-200 hover:scale-105 bg-fuchsia-600 hover:bg-fuchsia-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
         Get Started
       </Link>
 
-      <Link to="#" class="inline-block w-full sm:w-auto rounded-lg border border-slate-300 bg-white px-8 py-3 text-base font-semibold text-slate-800 shadow-sm transition-colors duration-200 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+      <Link to="#" class="inline-block w-full sm:w-auto rounded-lg border  border-slate-300 bg-white px-8 py-3 text-base font-semibold text-slate-800 shadow-sm transition-colors duration-200 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
         Explore Jobs
       </Link>
 

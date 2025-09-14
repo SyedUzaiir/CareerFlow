@@ -21,8 +21,20 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           {/* Brand/Logo Section */}
           <div className="mb-6 md:mb-0">
+            <h2 className="text-2xl font-bold text-white">CareerFlow</h2>
+
+            <p className="text-sm text-gray-400 mt-1">
+              Empowering developers with tools and resources to build better
+              applications. <br />
+              Connect with us and stay updated. Find your dream job today.
+            </p>
+            <br />
+            <p>
+              Here to support your journey—whether you're learning, building, or
+              growing your career.
+            </p>
+            <br />
             <div className=" flex gap-10">
-              <h2 className="text-2xl font-bold text-white">CareerFlow</h2>
               <div className="flex space-x-6">
                 <SocialIcon href="https://github.com/maraheem12">
                   <svg
@@ -50,16 +62,6 @@ const Footer = () => {
                 </SocialIcon>
               </div>
             </div>
-            <p className="text-sm text-gray-400 mt-1">
-              Empowering developers with tools and resources to build better
-              applications. <br />
-              Connect with us and stay updated. Find your dream job today.
-            </p>
-            <br />
-            <p>
-              Here to support your journey—whether you're learning, building, or
-              growing your career.
-            </p>
           </div>
 
           {/* Links Section */}
@@ -107,7 +109,6 @@ const Footer = () => {
           </div>
 
           {/* Social Icons Section */}
-          
         </div>
 
         <hr className="my-8 border-gray-600" />

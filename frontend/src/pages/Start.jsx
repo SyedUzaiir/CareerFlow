@@ -1,4 +1,3 @@
-
 import PlacedStudents from "../components/PlacedStudents.jsx";
 import Intro from "../components/Intro.jsx";
 import Footer from "../components/Footer.jsx";
@@ -15,7 +14,6 @@ const Start = () => {
       <Companies/>
       <Steps/>
       <PlacedStudents/>
-      <Footer/>
     </div>
   );
 };

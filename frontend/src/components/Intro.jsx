@@ -5,7 +5,7 @@ import SkillCard from "./SkillCard.jsx";
 
 
 const Intro = () => {
-    const { user } = useUser();
+  const { user } = useUser();
   return (
     <div>
       <div
